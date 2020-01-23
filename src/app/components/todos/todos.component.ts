@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+
 import { Todo } from 'src/app/models/Todo';
 import { TodoService } from 'src/app/services/todo.service';
-
 
 @Component({
   selector: 'app-todos',
@@ -17,6 +17,10 @@ export class TodosComponent implements OnInit {
 
   ngOnInit() {
     this.name = 'Josnei';
-    this.todos = this.todoService.getTodos();
+    this.todoService.getTodos().subscribe(todos => this.todos = todos);
+  }
+
+  delete(todo: Todo) {
+    this.todos = this.todos.filter(t => t.id !== todo.id);
   }
 }
