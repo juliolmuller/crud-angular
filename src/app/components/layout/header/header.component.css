@@ -1,0 +1,17 @@
+
+.header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.title {
+  margin: 20px;
+  text-align: center;
+}

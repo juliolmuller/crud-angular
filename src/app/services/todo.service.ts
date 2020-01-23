@@ -25,6 +25,10 @@ export class TodoService {
     return this.http.get<Todo[]>(url);
   }
 
+  addTodo(todo: Todo): Observable<Todo> {
+    return this.http.post<Todo>(this.baseUrl, todo, this.httpOptions);
+  }
+
   toggleCompleted(todo: Todo): Observable<Todo> {
     const url = `${this.baseUrl}/${todo.id}`;
     return this.http.put<Todo>(url, todo, this.httpOptions);
