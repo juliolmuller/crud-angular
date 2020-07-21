@@ -2,9 +2,9 @@
 # Simple Angular CRUD Application
 
 - **Author:** [Julio L. Muller](https://github.com/juliolmuller)
-- **Released on:** Jan 23, 2019
-- **Updated on:** Apr 5, 2020
-- **Latest version:** 1.1.0
+- **Released on:** Jan 23, 2020
+- **Updated on:** Jul 21, 2020
+- **Latest version:** 1.1.1
 - **License:** MIT
 
 ## Overview
@@ -17,7 +17,7 @@ Take a look at this application running through [this link](https://juliolmuller
 
 ## Project setup
 
-Run `npm install` to download all dependecnies and get the project set up.
+Run `npm install` to download all dependencies and get the project set up.;
 
 ## Development server
 
