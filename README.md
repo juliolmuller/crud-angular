@@ -1,28 +1,47 @@
+<h1 align="center">
+  :pencil: Simple CRUD with Angular
+</h1>
 
-# Simple Angular CRUD Application
-
-- **Author:** [Julio L. Muller](https://github.com/juliolmuller)
+- **Project proposed by:** [Traversy Media](https://www.traversymedia.com/)
+- **Project developed by:** [Julio L. Muller](https://github.com/juliolmuller)
 - **Released on:** Jan 23, 2020
-- **Updated on:** Jul 21, 2020
-- **Latest version:** 1.1.1
+- **Updated on:** Aug 19, 2020
+- **Latest version:** 1.1.2
 - **License:** MIT
 
-## Overview
+![Application snapshot](./src/assets/app-overview.jpg)
 
-Application developed to demonstrate a functional CRUD application (create, read, update & delete data) using the JavaScript framework Angular 9. This a front-end application which consumes a fake REST API called [JSON Placeholder](https://jsonplaceholder.typicode.com/) (no data is persistable.
+CRUD application developed in order to learn the latest edition of the framework Angular (rest in piece, AngularJS :broken_heart:). Completely based on Traversy Media's [crash course available in YouTube](https://www.youtube.com/watch?v=Fdf5aTYRW0E).
 
-## Run Application
+[Check out the application running!](https://juliolmuller.github.io/crud-angular).
 
-Take a look at this application running through [this link](https://juliolmuller.github.io/crud-angular).
+## :trophy: Lessons Learned
 
-## Project setup
+- Angular application;
+- TypeScript syntax:
 
-Run `npm install` to download all dependencies and get the project set up.;
+## :hammer: Technologies & Resources
 
-## Development server
+**Frontend:**
+- Angular 9
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+**Development:**
+- Visual Studio Code
+- Node.js routines
 
-## Build
+## :zap: Features
 
-Run `ng build` to build the project. The build artifacts will be stored in the `docs/` directory. Use the `--prod` flag for a production build.
+- Fetch dummy tasks from [JSON Placeholder REST API](https://jsonplaceholder.typicode.com/);
+- Create new task;
+- Mark task as completed;
+- Delete existing task;
+
+## :bell: Setting up the Environment
+
+Make sure to have **Node.js 10+** installed in your machine and its **npm** available in the command line, then use the following routines:
+
+```bash
+$ npm install   # Download dependencies
+$ npm start     # Run development server
+$ npm run build # Build files for production
+```
