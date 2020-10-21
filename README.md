@@ -5,15 +5,15 @@
 - **Project proposed by:** [Traversy Media](https://www.traversymedia.com/)
 - **Project developed by:** [Julio L. Muller](https://github.com/juliolmuller)
 - **Released on:** Jan 23, 2020
-- **Updated on:** Aug 19, 2020
-- **Latest version:** 1.1.2
+- **Updated on:** Oct 21, 2020
+- **Latest version:** 1.1.3
 - **License:** MIT
 
 ![Application snapshot](./src/assets/app-overview.jpg)
 
 CRUD application developed in order to learn the latest edition of the framework Angular (rest in piece, AngularJS :broken_heart:). Completely based on Traversy Media's [crash course available in YouTube](https://www.youtube.com/watch?v=Fdf5aTYRW0E).
 
-[Check out the application running!](https://juliolmuller.github.io/crud-angular).
+[Check out the application running!](https://juliolmuller.github.io/studying-angular-crud/).
 
 ## :trophy: Lessons Learned
 
