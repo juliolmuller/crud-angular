@@ -1,24 +1,18 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["styles"],{
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/styles.css":
-/*!*********************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--12-1!./node_modules/postcss-loader/src??embedded!./src/styles.css ***!
-  \*********************************************************************************************************************/
+/***/ 3:
+/*!******************************!*\
+  !*** multi ./src/styles.css ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-exports = ___CSS_LOADER_API_IMPORT___(true);
-// Module
-exports.push([module.i, "\r\n* {\r\n  box-sizing: border-box;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\nbody {\r\n  font-family: Arial, Helvetica, sans-serif;\r\n  line-height: 1.4;\r\n}\r\n\r\na {\r\n  color: #333;\r\n  text-decoration: none;\r\n}\r\n\r\n.container {\r\n  max-width: 820px;\r\n  margin: 8px auto;\r\n  padding: 0 1rem;\r\n}\r\n\r\n.btn {\r\n  display: inline-block;\r\n  border: none;\r\n  background-color: #555;\r\n  color: #fff;\r\n  padding: 7px 20px;\r\n  cursor: pointer;\r\n}\r\n\r\n.btn:hover {\r\n  background-color: #666;\r\n}", "",{"version":3,"sources":["styles.css"],"names":[],"mappings":";AACA;EACE,sBAAsB;EACtB,SAAS;EACT,UAAU;AACZ;;AAEA;EACE,yCAAyC;EACzC,gBAAgB;AAClB;;AAEA;EACE,WAAW;EACX,qBAAqB;AACvB;;AAEA;EACE,gBAAgB;EAChB,gBAAgB;EAChB,eAAe;AACjB;;AAEA;EACE,qBAAqB;EACrB,YAAY;EACZ,sBAAsB;EACtB,WAAW;EACX,iBAAiB;EACjB,eAAe;AACjB;;AAEA;EACE,sBAAsB;AACxB","file":"styles.css","sourcesContent":["\r\n* {\r\n  box-sizing: border-box;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\nbody {\r\n  font-family: Arial, Helvetica, sans-serif;\r\n  line-height: 1.4;\r\n}\r\n\r\na {\r\n  color: #333;\r\n  text-decoration: none;\r\n}\r\n\r\n.container {\r\n  max-width: 820px;\r\n  margin: 8px auto;\r\n  padding: 0 1rem;\r\n}\r\n\r\n.btn {\r\n  display: inline-block;\r\n  border: none;\r\n  background-color: #555;\r\n  color: #fff;\r\n  padding: 7px 20px;\r\n  cursor: pointer;\r\n}\r\n\r\n.btn:hover {\r\n  background-color: #666;\r\n}"]}]);
-// Exports
-module.exports = exports;
+module.exports = __webpack_require__(/*! P:\Web\CRUD Angular\src\styles.css */"OmL/");
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/runtime/api.js":
+/***/ "JPst":
 /*!*****************************************************!*\
   !*** ./node_modules/css-loader/dist/runtime/api.js ***!
   \*****************************************************/
@@ -123,7 +117,7 @@ function toComment(sourceMap) {
 
 /***/ }),
 
-/***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
+/***/ "LboF":
 /*!****************************************************************************!*\
   !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
   \****************************************************************************/
@@ -403,15 +397,15 @@ module.exports = function (list, options) {
 
 /***/ }),
 
-/***/ "./src/styles.css":
+/***/ "OmL/":
 /*!************************!*\
   !*** ./src/styles.css ***!
   \************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--12-1!../node_modules/postcss-loader/src??embedded!./styles.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/styles.css");
+var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "LboF");
+            var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--12-1!../node_modules/postcss-loader/src??embedded!./styles.css */ "W9N5");
 
             content = content.__esModule ? content.default : content;
 
@@ -426,22 +420,30 @@ options.singleton = false;
 
 var update = api(content, options);
 
-var exported = content.locals ? content.locals : {};
 
 
-
-module.exports = exported;
+module.exports = content.locals || {};
 
 /***/ }),
 
-/***/ 3:
-/*!******************************!*\
-  !*** multi ./src/styles.css ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "W9N5":
+/*!*********************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--12-1!./node_modules/postcss-loader/src??embedded!./src/styles.css ***!
+  \*********************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! P:\Web\CRUD Angular\src\styles.css */"./src/styles.css");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "JPst");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, "\r\n* {\r\n  box-sizing: border-box;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\nbody {\r\n  font-family: Arial, Helvetica, sans-serif;\r\n  line-height: 1.4;\r\n}\r\n\r\na {\r\n  color: #333;\r\n  text-decoration: none;\r\n}\r\n\r\n.container {\r\n  max-width: 820px;\r\n  margin: 8px auto;\r\n  padding: 0 1rem;\r\n}\r\n\r\n.btn {\r\n  display: inline-block;\r\n  border: none;\r\n  background-color: #555;\r\n  color: #fff;\r\n  padding: 7px 20px;\r\n  cursor: pointer;\r\n}\r\n\r\n.btn:hover {\r\n  background-color: #666;\r\n}", "",{"version":3,"sources":["webpack://src/styles.css"],"names":[],"mappings":";AACA;EACE,sBAAsB;EACtB,SAAS;EACT,UAAU;AACZ;;AAEA;EACE,yCAAyC;EACzC,gBAAgB;AAClB;;AAEA;EACE,WAAW;EACX,qBAAqB;AACvB;;AAEA;EACE,gBAAgB;EAChB,gBAAgB;EAChB,eAAe;AACjB;;AAEA;EACE,qBAAqB;EACrB,YAAY;EACZ,sBAAsB;EACtB,WAAW;EACX,iBAAiB;EACjB,eAAe;AACjB;;AAEA;EACE,sBAAsB;AACxB","sourcesContent":["\r\n* {\r\n  box-sizing: border-box;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\nbody {\r\n  font-family: Arial, Helvetica, sans-serif;\r\n  line-height: 1.4;\r\n}\r\n\r\na {\r\n  color: #333;\r\n  text-decoration: none;\r\n}\r\n\r\n.container {\r\n  max-width: 820px;\r\n  margin: 8px auto;\r\n  padding: 0 1rem;\r\n}\r\n\r\n.btn {\r\n  display: inline-block;\r\n  border: none;\r\n  background-color: #555;\r\n  color: #fff;\r\n  padding: 7px 20px;\r\n  cursor: pointer;\r\n}\r\n\r\n.btn:hover {\r\n  background-color: #666;\r\n}"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
 
 /***/ })
