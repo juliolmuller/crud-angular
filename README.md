@@ -46,9 +46,9 @@ CRUD application developed in order to learn the latest edition of the framework
 Make sure to have **Node.js 10+** installed in your machine and its **npm** available in the command line, then use the following routines:
 
 ```bash
-$ npm install   # Download dependencies
-$ npm start     # Run development server
-$ npm run build # Build files for production
+$ npm install     # Download dependencies
+$ npm start       # Run development server
+$ npm run build   # Build files for production
 ```
 
 ## :zap: Features Implementations
@@ -58,4 +58,5 @@ $ npm run build # Build files for production
 - [x] Mark task as completed;
 - [x] Delete existing task;
 - [x] ~~Upgrade to Angular v9;~~
-- [x] Upgrade to Angular v10;
+- [x] ~~Upgrade to Angular v10;~~
+- [x] Upgrade to Angular v11;
